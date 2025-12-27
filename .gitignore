@@ -1,1 +1,11 @@
-
+_debug/
+_fastdebug/
+_release/
+lib/
+*.obj
+*.sbr
+*.map
+*.pdb
+*.idb
+*.htm
+*.lib
