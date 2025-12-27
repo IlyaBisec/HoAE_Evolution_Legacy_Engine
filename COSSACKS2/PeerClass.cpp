@@ -551,7 +551,8 @@ void PEER_CrossPingCallback(
 };
 extern unsigned short dwVersion;
 __declspec(dllexport)
-char LobbyVersion[32]="1.1 Repaired";
+// Client version in main menu mod name, global, patch/update, fix 
+char LobbyVersion[32]="evo 0.0.1"; 
 // Type used for the GOA callbacks (basic, info, rules, players).
 /////////////////////////////////////////////////////////////////
 bool BasicCalled=0;
