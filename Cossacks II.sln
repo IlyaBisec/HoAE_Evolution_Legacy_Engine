@@ -123,7 +123,6 @@ Global
 		{0A91D231-279B-4AD3-8E28-6439791D52B9}.DemoRelease.ActiveCfg = Release|Win32
 		{0A91D231-279B-4AD3-8E28-6439791D52B9}.DemoRelease.Build.0 = Release|Win32
 		{0A91D231-279B-4AD3-8E28-6439791D52B9}.FastDebug.ActiveCfg = Debug|Win32
-		{0A91D231-279B-4AD3-8E28-6439791D52B9}.FastDebug.Build.0 = Debug|Win32
 		{0A91D231-279B-4AD3-8E28-6439791D52B9}.FastDebug CheckSync.ActiveCfg = Debug|Win32
 		{0A91D231-279B-4AD3-8E28-6439791D52B9}.FastDebug CheckSync.Build.0 = Debug|Win32
 		{0A91D231-279B-4AD3-8E28-6439791D52B9}.FastDebug_CheckSync.ActiveCfg = Debug|Win32
@@ -531,7 +530,6 @@ Global
 		{34F7C96D-7DF6-465F-B4E2-89610427A6BD}.DemoRelease.ActiveCfg = Release|Win32
 		{34F7C96D-7DF6-465F-B4E2-89610427A6BD}.DemoRelease.Build.0 = Release|Win32
 		{34F7C96D-7DF6-465F-B4E2-89610427A6BD}.FastDebug.ActiveCfg = FastDebugHoae|Win32
-		{34F7C96D-7DF6-465F-B4E2-89610427A6BD}.FastDebug.Build.0 = FastDebugHoae|Win32
 		{34F7C96D-7DF6-465F-B4E2-89610427A6BD}.FastDebug CheckSync.ActiveCfg = FastDebugHoae|Win32
 		{34F7C96D-7DF6-465F-B4E2-89610427A6BD}.FastDebug CheckSync.Build.0 = FastDebugHoae|Win32
 		{34F7C96D-7DF6-465F-B4E2-89610427A6BD}.FastDebug_CheckSync.ActiveCfg = FastDebugHoae|Win32

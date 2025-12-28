@@ -270,7 +270,7 @@ xcopy /Y q:\IntExplorer.dll ..\bin\
 		</Configuration>
 		<Configuration
 			Name="FastDebug|Win32"
-			OutputDirectory="..\..\data\"
+			OutputDirectory="..\..\..\Client\HoAE_Evolution_Client_DEV\HoAE_Evolution_Client\HoAE_Evo_Stable"
 			IntermediateDirectory=".\../_fastdebug"
 			ConfigurationType="1"
 			UseOfMFC="0"
@@ -311,7 +311,7 @@ xcopy /Y q:\IntExplorer.dll ..\bin\
 				Name="VCLinkerTool"
 				AdditionalOptions="/MACHINE:I386 /FIXED:NO ..\lib\diaguids.lib ..\lib\diaguidsd.lib"
 				AdditionalDependencies="psapi.lib gMotorR.lib gRenderDX9R.lib boostR.lib atls.lib ../lib/ichat.lib ../lib/dipserver.lib ../lib_release/gMotorR.lib ddraw.lib commcore.lib odbc32.lib odbccp32.lib ws2_32.lib oldnames.lib dsound.lib dxguid.lib dplayx.lib strmiids.lib d3d9.lib d3dx9.lib dxerr9.lib libcmt.lib libcpmt.lib luaR.lib luabindR.lib gPhysicsR.lib ode.lib opcode.lib comctl32.lib TVPlugin.lib libogg.lib libtheora.lib libvorbis.lib libvorbisfile.lib"
-				OutputFile="..\..\data\engine.exe"
+				OutputFile="..\..\..\Client\HoAE_Evolution_Client_DEV\HoAE_Evolution_Client\HoAE_Evo_Stable\engine.exe"
 				LinkIncremental="2"
 				SuppressStartupBanner="TRUE"
 				AdditionalLibraryDirectories="../3dlib\gRenderDX9\dx9_sdk;../lib_release;../lib;..\3dlib\libogg\lib;..\3dlib\libtheora\lib;..\3dlib\libvorbis\lib;..\lib;..\3dlib\libogg\dll;..\3dlib\libtheora\dll;..\3dlib\libvorbis\dll"

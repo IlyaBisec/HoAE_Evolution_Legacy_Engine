@@ -38,8 +38,8 @@
 #include "gamesettings.h"
 #include "mp3\oggvor.h"
 #include "vital\vital_def.h"
-//#include "theovorb\theovorb.h"
-#include "TVPlugin\TVPlugin.h"
+#include "theovorb\theovorb.h"
+//#include "TVPlugin\TVPlugin.h"
 #include "MassivePlayer.h"
 bool UseSysMouse=0;
 #ifdef _USE3D
@@ -4522,7 +4522,7 @@ int PASCAL WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance,
                         LPSTR lpCmdLine, int nCmdShow)
 {	
     // ManOwaR :: Initializing TVPlugin helper thread
-	if ( tv_Init(hwnd) != TV_OK ) {
+	if ( tv_Init() != TV_OK ) {
         MessageBox( NULL , "Cannot start TVPlugin helper thread", "Media Thread Initialization Error" , MB_ICONERROR | MB_OK );
         return 1;
     };
