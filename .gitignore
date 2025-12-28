@@ -1,12 +1,58 @@
-_debug/
-_fastdebug/
-_release/
-lib/
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
 *.obj
-*.sbr
+*.elf
+
+# Linker output
+*.ilk
 *.map
-*.pdb
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+*.sbr
+
+# Libraries
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
 *.idb
+*.pdb
+
+#data
+data/
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+.debug/
+_debug/
+
+# Buildlog
 *.htm
-*.lib
-*.rar
